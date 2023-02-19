@@ -1,3 +1,25 @@
-<p align="center"><strong>StarEngine | 星星引擎</strong></p>
-<p align="center">一个可以让你快速创建一片星空的引擎</p>
+<p style="text-align: center"><strong>StarEngine | 星星引擎</strong></p>
 
+## 预览
+```
+cd /test
+```
+```
+pnpm install
+```
+```
+pnpm run dev
+```
+
+## 大致结构
+
+- Base
+  - space
+    - scene
+    - camera
+    - render
+    - animation
+  - object
+- Systems
+  - event
+- Plugins
